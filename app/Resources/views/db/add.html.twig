@@ -1,0 +1,21 @@
+
+{% block body %}
+    <div id="wrapper">
+        
+        <div id="container">
+            
+            <div id="welcome">
+                <!--<h1><span>Welcome to</span> Symfony {{ constant('Symfony\\Component\\HttpKernel\\Kernel::VERSION') }}</h1>-->
+                <div> <h1> {{ your_application }} </h1> </div>
+            </div>
+
+          
+            <div>
+               <p>First Name : <input type="text" data-ng-model="firstName"> &nbsp; &nbsp; Last Name : <input type="text" data-ng-model="lastName"></p>
+            </div>
+
+        </div>
+    </div>
+
+
+{% endblock %}
